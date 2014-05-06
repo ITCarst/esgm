@@ -130,47 +130,10 @@
     }
 
     var createElem = function(elem, attr, value) {
-
         var el = document.createElement(elem);
-
         if(!name || name.constructor != String ) return;
-
-        console.log(elem);
-
-        console.log(el)
-
-        console.log(attr);
-
-        console.log(value);
-
-
         return el;
-
     }
-
-        /*
-        addEventListener: function(elem, callback) {
-        console.log('test')
-        },
-        removeEventListener: function(elem, callback) {
-        },
-        getElById : function(el_id) {
-        var elem = document.getElementById(el_id);
-        if(elem) {
-        return elem;
-        }
-        },
-        getClassName: function() {
-        },      
-        applyCss: function() {
-        },
-        css: function() {
-        },
-        getTagName: function() {
-        }*/
-
-    // }
-    //make esgm global
 
     esgm.extensions = { 
         multiplayer : function() {
@@ -178,7 +141,6 @@
         }       
     }
 
-    
     window.esgm = esgm; 
 
 
